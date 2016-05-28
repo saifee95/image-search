@@ -5,7 +5,7 @@ var util = require('util');
 var mongoose = require('mongoose');
 var history = mongoose.model('History');
 
-search = new Search('0u7OeyGG4VkgYNnwWm4JOft8mnAhVsN/46RRT4mvr+Y');
+search = new Search('your account key');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
