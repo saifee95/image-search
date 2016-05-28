@@ -16,7 +16,7 @@ var allowCrossDomain = function(req, res, next) {
 }
 
 var app = express();
-var dburl = 'mongodb://saifee:bailamose@ds025772.mlab.com:25772/shorturl';
+var dburl = 'mongodb://dbuser:password@ds025772.mlab.com:25772/shorturl';
 mongoose.connect(dburl);
 
 // view engine setup
